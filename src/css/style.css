@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/restaurant.jpeg") no-repeat center fixed;
+  background-size: cover;
+  color: aliceblue;
+}
