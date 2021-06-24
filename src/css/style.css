@@ -40,3 +40,18 @@ body {
   margin-bottom: 2em;
   color: black;
 }
+
+.menu-item {
+  padding: 20px 20px 0 20px;
+}
+
+.menu-background img {
+  width: 300px;
+  height: 200px;
+}
+
+.menu-item p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
