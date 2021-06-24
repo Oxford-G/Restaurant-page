@@ -10,3 +10,20 @@ body {
   background-size: cover;
   color: aliceblue;
 }
+
+.main {
+  max-width: 100%;
+  background: rgba(131, 133, 131, 0.925);
+  border: 5px solid rgba(100, 236, 37, 0.933);
+  border-radius: 20px;
+  padding-bottom: 1em;
+  margin-top: 15%;
+  margin-bottom: 2em;
+  z-index: 0;
+}
+
+.main .main-div {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
