@@ -36,3 +36,12 @@ const createTitle = () => {
   title.innerText = 'Menu';
   return title;
 };
+
+const createMenuBackground = () => {
+  const background = document.createElement('div');
+  background.classList.add('menu-background');
+  menu.forEach((item) => {
+    background.append(createMenuItem(item));
+  });
+  return background;
+};
