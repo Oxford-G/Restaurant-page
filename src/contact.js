@@ -20,3 +20,10 @@ const createContactSection = () => {
 
   return container;
 };
+
+const createContact = (container) => {
+  container.append(createTitle());
+  container.append(createContactSection());
+};
+
+export default createContact;
