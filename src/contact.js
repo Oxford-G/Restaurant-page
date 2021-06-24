@@ -13,7 +13,7 @@ const createContactSection = () => {
   const email = document.createElement('p');
   email.textContent = 'Email: email@email.com';
   const location = document.createElement('p');
-  location.textContent = 'Location: 1337 Place, Location, LC';
+  location.textContent = 'Location: 43537 Place, Location, LC';
   container.append(phone);
   container.append(email);
   container.append(location);

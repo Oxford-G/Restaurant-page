@@ -5,7 +5,7 @@ const homeFunc = (container) => {
   mainDiv.classList.add('main-div', 'text-center');
   const heading = document.createElement('h1');
   heading.classList.add('home');
-  heading.textContent = 'Kenz Restaurant';
+  heading.textContent = 'Oxzy Restaurant';
   const paragraph = document.createElement('p');
   paragraph.classList.add('home-para');
   paragraph.textContent = 'Welcome to the home of your favourite delicacies. We serve the best in town. what you eat is what you\'re made of';
