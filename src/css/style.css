@@ -80,3 +80,12 @@ body {
   padding: 20px 0;
   font-size: 1.2em;
 }
+
+@media (max-width: 768px) {
+  .menu-background {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
