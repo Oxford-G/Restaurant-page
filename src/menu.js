@@ -14,3 +14,18 @@ const menu = [
   new MenuItem('Nigerian Jollof Rice', jollof),
   new MenuItem('Vegetable Meal', veg),
 ];
+
+const createMenuItem = ({ name, src }) => {
+  const container = document.createElement('div');
+  container.classList.add('menu-item', 'mx-auto');
+
+  const img = document.createElement('img');
+  img.src = src;
+  container.append(img);
+
+  const p = document.createElement('p');
+  p.innerText = name;
+  container.append(p);
+
+  return container;
+};
