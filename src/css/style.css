@@ -27,3 +27,16 @@ body {
   margin: 0 auto;
   padding-top: 25px;
 }
+
+.menu-background {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(131, 133, 131, 0.925);
+  border: 5px solid rgba(100, 236, 37, 0.933);
+  border-radius: 20px;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  color: black;
+}
