@@ -33,7 +33,7 @@ Text editor Get a browser like chrome or firefox in their recent versions Node.j
 
 ## Live link
 
-[live link](https://oxford-g.github.io/Restaurant-page/)
+[live link](https://oxford-g.github.io/Restaurant-page/dist/index)
 
 ## Author
 
