@@ -29,3 +29,10 @@ const createMenuItem = ({ name, src }) => {
 
   return container;
 };
+
+const createTitle = () => {
+  const title = document.createElement('h3');
+  title.classList.add('title-header', 'text-center', 'py-4');
+  title.innerText = 'Menu';
+  return title;
+};
