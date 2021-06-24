@@ -55,3 +55,28 @@ body {
   padding-top: 10px;
   font-size: 1.2em;
 }
+
+.contact-section {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 60%;
+  background: rgba(131, 133, 131, 0.925);
+  border: 5px solid rgba(100, 236, 37, 0.933);
+  border-radius: 20px;
+}
+
+.contact-section p {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.2em;
+}
