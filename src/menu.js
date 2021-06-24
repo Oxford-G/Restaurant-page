@@ -45,3 +45,10 @@ const createMenuBackground = () => {
   });
   return background;
 };
+
+const createMenu = (container) => {
+  container.append(createTitle());
+  container.append(createMenuBackground());
+};
+
+export default createMenu;
