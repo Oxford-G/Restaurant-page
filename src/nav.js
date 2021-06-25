@@ -6,7 +6,7 @@ const removeAllChildNodes = (parent) => {
   while (parent.firstChild) {
     parent.removeChild(parent.firstChild);
   }
-}
+};
 
 const navbar = (content, container) => {
   const nav = document.createElement('nav');
